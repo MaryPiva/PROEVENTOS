@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Proeventos.API.Controllers
+namespace ProEventos.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
