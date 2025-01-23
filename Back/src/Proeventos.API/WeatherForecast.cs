@@ -1,6 +1,6 @@
 using System;
 
-namespace Proeventos.API
+namespace ProEventos.API
 {
     public class WeatherForecast
     {
