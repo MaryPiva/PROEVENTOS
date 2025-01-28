@@ -14,22 +14,22 @@ namespace ProEventos.API.Controllers
     public class EventoController : ControllerBase
     {
         
-        private readonly DataContext context;
+        private readonly DataContext _context;
       
         public EventoController(DataContext context)
         {   
-            this.context = context;
-            this.Context = context;
+            _context = context;
+            _context = context;
         }
 
         [HttpGet]
         public IEnumerable<Evento> get(){
-            return _Context.Eventos;
+            return _context.Eventos;
         }
 
         [HttpGet ("{id}")]
-        public IEnumerable<Evento> getById(int id){
-            return _Context.Eventos.Where(evento => evento.EventoId == id);
+        public Evento GetById(int id){
+            return _context.Eventos.FirstOrDefault(evento => evento.EventoId == id);
         }
 
         [HttpPost ]  
