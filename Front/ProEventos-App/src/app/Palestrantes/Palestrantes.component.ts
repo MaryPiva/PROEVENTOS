@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-Palestrantes',
-  templateUrl: './Palestrantes.component.html',
-  styleUrls: ['./Palestrantes.component.css']
+  selector: 'app-palestrantes',
+  standalone: true,
+  templateUrl: './palestrantes.component.html',
+  styleUrls: ['./palestrantes.component.scss']
 })
 export class PalestrantesComponent implements OnInit {
 
