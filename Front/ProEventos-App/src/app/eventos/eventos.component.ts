@@ -1,31 +1,24 @@
 import { Component, OnInit } from '@angular/core';
+import { EventService } from '../services/event.service'; // Certifique-se do caminho correto
 
 @Component({
-  selector: 'app-eventos',
-  standalone: true,
-  templateUrl: './eventos.component.html',
-  styleUrls: ['./eventos.component.scss']
+  selector: 'app-event-list',
+  templateUrl: './event-list.component.html',
+  styleUrls: ['./event-list.component.css']
 })
-export class EventosComponent implements OnInit {
+export class EventListComponent implements OnInit {
+  eventos: any[] = [];
 
-  public eventos: any = [
-    {
-      tema:'Angular 11',
-      local: 'Belo Horizonte'
-    },
-    {
-      tema:'.NET 5',
-      local: 'Sao Paulo'
-    },
-    {
-      tema:'Angular e suas novidades',
-      local: 'Rio de Janeiro'
-    }
-]
-
-  constructor() { }
+  constructor(private eventService: EventService) {}
 
   ngOnInit() {
+    this.eventService.getEventos().subscribe({
+      next: (data) => {
+        this.eventos = data;
+      },
+      error: (error) => {
+        console.error('Erro ao buscar eventos:', error);
+      }
+    });
   }
-
 }
