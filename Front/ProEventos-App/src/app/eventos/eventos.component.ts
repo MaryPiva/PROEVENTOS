@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { EventService } from '../services/event.service'; // Certifique-se do caminho correto
+import { EventService } from '../services/event.service';
 
 @Component({
   selector: 'app-event-list',
+  standalone: true,
   templateUrl: './event-list.component.html',
   styleUrls: ['./event-list.component.css']
 })
