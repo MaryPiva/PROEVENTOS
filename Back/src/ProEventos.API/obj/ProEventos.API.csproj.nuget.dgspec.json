@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\44753\\OneDrive\\Documentos\\MeusprojetosGitHub\\PROEVENTOS\\back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
+    "C:\\Users\\44753\\OneDrive\\Documentos\\MeusprojetosGitHub\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\44753\\OneDrive\\Documentos\\MeusprojetosGitHub\\PROEVENTOS\\back\\src\\ProEventos.API\\ProEventos.API.csproj": {
+    "C:\\Users\\44753\\OneDrive\\Documentos\\MeusprojetosGitHub\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\44753\\OneDrive\\Documentos\\MeusprojetosGitHub\\PROEVENTOS\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectUniqueName": "C:\\Users\\44753\\OneDrive\\Documentos\\MeusprojetosGitHub\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "projectName": "ProEventos.API",
-        "projectPath": "C:\\Users\\44753\\OneDrive\\Documentos\\MeusprojetosGitHub\\PROEVENTOS\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectPath": "C:\\Users\\44753\\OneDrive\\Documentos\\MeusprojetosGitHub\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "packagesPath": "C:\\Users\\44753\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\44753\\OneDrive\\Documentos\\MeusprojetosGitHub\\PROEVENTOS\\back\\src\\ProEventos.API\\obj\\",
+        "outputPath": "C:\\Users\\44753\\OneDrive\\Documentos\\MeusprojetosGitHub\\PROEVENTOS\\Back\\src\\ProEventos.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\44753\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

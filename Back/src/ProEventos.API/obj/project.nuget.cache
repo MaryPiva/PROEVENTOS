@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6FSrdDclIET4M8jM9hYv8iBGnl4cJx0bJjQHtRZoGgOjPja08y/uLKjTXgK1frfCX66U4Y1sxZX4X/09JNU1Jg==",
+  "dgSpecHash": "e1koTn2rvt1DQ1DbXyudbY/Kn6Gs/sAoHyVznWa4ZfIeLeRatclxYuVl4hrOIPbKGqLEH1wexT6AKVFjxKKPsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\44753\\OneDrive\\Documentos\\MeusprojetosGitHub\\PROEVENTOS\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
+  "projectFilePath": "C:\\Users\\44753\\OneDrive\\Documentos\\MeusprojetosGitHub\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\44753\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\44753\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
